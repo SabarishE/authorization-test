@@ -8,7 +8,8 @@ const userschema= new mongoose.Schema({
     id:{type:String,required:true},
     createdAt:{type:String,required:true},
     name:{type:String,required:true},
-    avatar:{type:String,required:true}
+    avatar:{type:String,required:true},
+    password:{type:String,required:true}
 
 })
 
